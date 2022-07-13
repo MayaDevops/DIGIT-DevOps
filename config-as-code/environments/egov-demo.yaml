@@ -1,5 +1,5 @@
 global:
-   domain: <Domain_name> ## Add your Domain Name "Eg: site.mydomain.com" Do not use the dummy domain
+   domain: ksmart-qa.lsgkerala.gov.in ## Add your Domain Name "Eg: site.mydomain.com" Do not use the dummy domain
    setup: fullsetup
 
 cluster-configs:
@@ -12,7 +12,7 @@ cluster-configs:
     configmaps:
         egov-config:
             data:
-                db-host: "<db_host_name>" ## Add db-host name eg: egov-demo.database.azure.com
+                db-host: "ikm-first-eks-db.c865b3gqkoui.ap-south-1.rds.amazonaws.com" ## Add db-host name eg: egov-demo.database.azure.com
                 db-name: "<db_name>" ## Add db-name
                 db-url: "<db_url>" ## example: jdbc:postgresql://egov-demo.postgres.database.azure.com:5432/egov_demo
                 domain: "<Domain_name>" ## Add your Domain Name    
